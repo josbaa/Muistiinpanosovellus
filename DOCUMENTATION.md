@@ -88,8 +88,6 @@ Toteutus noudattaa yleisiä **FlutterFire- ja Firebase-dokumentaation** sekä ku
 
 ## 10. Onko toteutuksessa hyödynnetty tekoälyä, ja jos on, miten
 
-**Itse sovelluksessa ei ole tekoälytoimintoja:** käyttäjän dataa ei analysoida tekoälypalvelulla, eikä sovellus kutsu ulkoisia tekoäly-API:ja.
-
 Tekoälyapurina on toiminut Cursor AI.
 
 ---
