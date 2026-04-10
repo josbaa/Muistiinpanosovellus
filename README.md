@@ -17,7 +17,7 @@ flutter pub get
 flutter run
 ```
 
-Valitse laite tai alusta, kun Flutter pyytää (esim. Chrome tai Android-emulaattori).
+Valitse alusta, kun Flutter pyytää (esim. Chrome tai Edge).
 
 ## Mitä repossa on
 
