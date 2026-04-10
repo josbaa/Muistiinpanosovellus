@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "478582556390",
+    "project_id": "muistiinpanosovellus",
+    "storage_bucket": "muistiinpanosovellus.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478582556390:android:c1900277411a44fa1cdd27",
+        "android_client_info": {
+          "package_name": "com.example.muistiinpanosovellus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBAEn11tBBNCUnOd644QXWYdHwpC0E5Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
