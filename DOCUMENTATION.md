@@ -93,3 +93,9 @@ Tekoälyapurina on toiminut Cursor AI.
 ---
 
 *Tämä dokumentti perustuu projektin `pubspec.yaml`- ja `lib/main.dart` -toteutukseen sekä tiedostoon `SPEC.md`. 
+
+
+
+<img width="1419" height="614" alt="image" src="https://github.com/user-attachments/assets/51fc2d6b-ad9d-4017-9692-fccca004d9cb" />
+<img width="1036" height="786" alt="image" src="https://github.com/user-attachments/assets/23737a02-c749-49df-9836-5ec068c580b5" />
+
