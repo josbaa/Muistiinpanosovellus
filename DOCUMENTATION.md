@@ -98,4 +98,6 @@ Tekoälyapurina on toiminut Cursor AI.
 
 <img width="1419" height="614" alt="image" src="https://github.com/user-attachments/assets/51fc2d6b-ad9d-4017-9692-fccca004d9cb" />
 <img width="1036" height="786" alt="image" src="https://github.com/user-attachments/assets/23737a02-c749-49df-9836-5ec068c580b5" />
+<img width="1624" height="682" alt="image" src="https://github.com/user-attachments/assets/f6b95539-8333-4da5-bba6-0ebc5b894638" />
+
 
