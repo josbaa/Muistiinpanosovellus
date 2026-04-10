@@ -2,7 +2,7 @@
 
 ## 1. Sovelluksen nimi
 
-**Muistiinpanosovellus** (Flutter-paketin nimi: `muistiinpanosovellus`)
+**Muistiinpanosovellus**
 
 ## 2. Mitä sovellus tekee
 
