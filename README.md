@@ -1,40 +1,46 @@
 # Muistiinpanosovellus
 
-Flutterilla toteutettu kurssityö: muistiinpanot pilvessä **Firebase**-palveluilla (**Authentication** + **Cloud Firestore**). Käyttäjä kirjautuu sähköpostilla ja hallitsee omia muistiinpanojaan.
+Flutter + Firebase -kurssityö: kirjautuminen sähköpostilla ja omat muistiinpanot **Cloud Firestore** -tietokannassa.
+
+**Repo:** [github.com/josbaa/Muistiinpanosovellus](https://github.com/josbaa/Muistiinpanosovellus)
+
+## Ominaisuudet
+
+- Firebase **Authentication** (sähköposti / salasana): rekisteröityminen, kirjautuminen, uloskirjautuminen
+- **Firestore**-muistiinpanot polussa `users/{uid}/notes/{noteId}`: lisää, listaa, muokkaa, poista (vahvistus ennen poistoa)
+- Reaaliaikainen lista (`StreamBuilder`)
 
 ## Vaatimukset
 
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Dart SDK mukana)
-- Firebase-projekti, jossa on käytössä **Authentication** (Email/Password) ja **Firestore**
-- Tiedosto `lib/firebase_options.dart` (yleensä [FlutterFire CLI](https://firebase.flutter.dev/docs/cli/): `flutterfire configure`)
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Dart ^3.5)
+- Firebase-projekti: **Authentication** (Email/Password) + **Firestore**
+- `lib/firebase_options.dart` — generoi esim. [FlutterFire CLI](https://firebase.google.com/docs/flutter/setup): `dart pub global activate flutterfire_cli` → `flutterfire configure`
 
-## Asennus ja ajo
-
-Projektin juuressa:
+## Kloonaus ja ajo
 
 ```bash
+git clone https://github.com/josbaa/Muistiinpanosovellus.git
+cd Muistiinpanosovellus
 flutter pub get
 flutter run
 ```
 
-Valitse alusta, kun Flutter pyytää (esim. Chrome tai Edge).
+Valitse laite tai alusta, kun Flutter pyytää (esim. **Chrome**, **Edge** tai Android-emulaattori).
 
-## Mitä repossa on
+## Projektin rakenne (tärkeimmät)
 
-| Tiedosto / kansio        | Kuvaus                                      |
-|--------------------------|---------------------------------------------|
-| `lib/main.dart`          | Sovelluksen UI ja Firebase-logiikka         |
-| `lib/firebase_options.dart` | Firebase-asetukset (generoitu)          |
-| `DOCUMENTATION.md`       | Kurssidokumentaatio (tarkempi kuvaus)       |
-| `SPEC.md`                | Tehtävänanto / tavoitteet                   |
+| Polku | Sisältö |
+|--------|---------|
+| `lib/main.dart` | UI, Auth, Firestore |
+| `lib/firebase_options.dart` | Firebase-asetukset (generoitu, älä muokkaa käsin) |
+| [DOCUMENTATION.md](DOCUMENTATION.md) | Kurssidokumentaatio |
+| [SPEC.md](SPEC.md) | Tavoitteet / tehtäväkuvaus |
 
-## Teknologiat
+## Riippuvuudet
 
-- **Flutter** (Material)
-- **firebase_core**, **firebase_auth**, **cloud_firestore**
+`firebase_core`, `firebase_auth`, `cloud_firestore` — versiot: [pubspec.yaml](pubspec.yaml).
 
 ## Lisätietoa
 
-Katso **[DOCUMENTATION.md](DOCUMENTATION.md)** (ominaisuudet, paketit, palvelut, näkymät).
-
-
+- **[DOCUMENTATION.md](DOCUMENTATION.md)** — palvelut, näkymät, paketit, laiteominaisuudet
+- [Flutter-dokumentaatio](https://docs.flutter.dev/)
